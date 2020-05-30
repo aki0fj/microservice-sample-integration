@@ -1,3 +1,7 @@
-services/*
-!services/.gitkeep
+services/microservice-sample-tweet/*
+services/microservice-sample-user/*
+services/microservice-sample-web/*
+!services/microservice-sample-tweet/Dockerfile
+!services/microservice-sample-user/Dockerfile
+!services/microservice-sample-web/Dockerfile
 .env
